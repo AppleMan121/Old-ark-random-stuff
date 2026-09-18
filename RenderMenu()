@@ -1,0 +1,25 @@
+void RenderMenu() {
+    uintptr_t GameBase = (uintptr_t)GetModuleHandle(nullptr);
+    
+    // GObjects is now at fixed offset
+    UObject::GObjects = reinterpret_cast<decltype(UObject::GObjects)>(GameBase + Offsets::GObjects);
+    
+    // GWorld might need pattern scan since dump shows 0x0
+    // Try fixed offset first, if null then scan
+    UWorld::GWorld = *reinterpret_cast<UWorld**>(GameBase + 0xXXXXXXXX); // Try to find or use pattern
+    
+    // Better - use pattern scan for GWorld:
+    uintptr_t gworldPtr = PatternScan(GameBase, Patterns::GWorld);
+    if (gworldPtr) {
+        // Resolve RIP-relative addressing
+        int32_t rel = *(int32_t*)(gworldPtr + 3);
+        UWorld::GWorld = *(UWorld**)(gworldPtr + 7 + rel);
+    }
+    
+    Cache.GameBase = GameBase;
+    
+    // ProcessEvent index from dump
+    constexpr uint32_t PROCESS_EVENT_INDEX = Offsets::ProcessEventIndex; // 0x3C
+    
+    // ... rest of init
+}
