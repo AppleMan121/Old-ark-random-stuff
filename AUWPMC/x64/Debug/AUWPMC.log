@@ -1,0 +1,37 @@
+﻿  Cheat.cpp
+C:\Users\Weed\Desktop\ARK-UWP-Source-main\AUWPMC\Cheat.cpp(1803,1): fatal  error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  ExtraCode.cpp
+C:\Users\Weed\Desktop\ARK-UWP-Source-main\AUWPMC\ExtraCode.cpp(103,1): fatal  error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  D3D11Hooking.cpp
+C:\Users\Weed\Desktop\ARK-UWP-Source-main\AUWPMC\Hooking\D3D11Hooking.cpp(84,1): fatal  error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  imgui.cpp
+C:\Users\Weed\Desktop\ARK-UWP-Source-main\AUWPMC\imgui\imgui.cpp(2072,1): warning C4005: 'va_copy' : redéfinition de macro
+C:\Users\Weed\Desktop\ARK-UWP-Source-main\AUWPMC\imgui\imgui.cpp(2070,1): message : voir la définition précédente de 'va_copy'
+C:\Users\Weed\Desktop\ARK-UWP-Source-main\AUWPMC\imgui\imgui.cpp(10869,1): fatal  error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  imgui_demo.cpp
+C:\Users\Weed\Desktop\ARK-UWP-Source-main\AUWPMC\imgui\imgui_demo.cpp(116,1): warning C4005: 'IM_NEWLINE' : redéfinition de macro
+C:\Users\Weed\Desktop\ARK-UWP-Source-main\AUWPMC\imgui\imgui_demo.cpp(114,1): message : voir la définition précédente de 'IM_NEWLINE'
+C:\Users\Weed\Desktop\ARK-UWP-Source-main\AUWPMC\imgui\imgui_demo.cpp(5587,1): fatal  error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  imgui_draw.cpp
+C:\Users\Weed\Desktop\ARK-UWP-Source-main\AUWPMC\imgui\imgui_draw.cpp(125,10): error C2006: '#include' : attendu "FILENAME" ou <FILENAME>
+C:\Users\Weed\Desktop\ARK-UWP-Source-main\AUWPMC\imgui\imgui_draw.cpp(148,10): error C2006: '#include' : attendu "FILENAME" ou <FILENAME>
+C:\Users\Weed\Desktop\ARK-UWP-Source-main\AUWPMC\imgui\imgui_draw.cpp(3676,1): fatal  error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  imgui_impl_dx11.cpp
+C:\Users\Weed\Desktop\ARK-UWP-Source-main\AUWPMC\imgui\imgui_impl_dx11.cpp(552,1): fatal  error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  imgui_impl_win32.cpp
+C:\Users\Weed\Desktop\ARK-UWP-Source-main\AUWPMC\imgui\imgui_impl_win32.cpp(443,1): fatal  error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  imgui_widgets.cpp
+C:\Users\Weed\Desktop\ARK-UWP-Source-main\AUWPMC\imgui\imgui_widgets.cpp(8609,1): fatal  error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  Logger.cpp
+C:\Users\Weed\Desktop\ARK-UWP-Source-main\AUWPMC\Logger.cpp(59,1): fatal  error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  Main.cpp
+C:\Users\Weed\Desktop\ARK-UWP-Source-main\AUWPMC\Main.cpp(45,1): fatal  error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  MemHelper.cpp
+C:\Users\Weed\Desktop\ARK-UWP-Source-main\AUWPMC\MemHelper.cpp(46,1): fatal  error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  SDK.cpp
+C:\Users\Weed\Desktop\ARK-UWP-Source-main\AUWPMC\SDK\SDK.cpp(69,1): fatal  error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  Transform.cpp
+C:\Users\Weed\Desktop\ARK-UWP-Source-main\AUWPMC\SDK\UE4\Transform.cpp(3,1): fatal  error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  UE4.cpp
+C:\Users\Weed\Desktop\ARK-UWP-Source-main\AUWPMC\SDK\UE4\UE4.cpp(161,1): fatal  error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  Génération de code en cours...
